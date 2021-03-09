@@ -14,4 +14,3 @@ RUN yum install -y curl tar gzip && \
     mv /usr/share/apache-maven-$MVN_VERSION /usr/share/maven && \
     ln -s /usr/share/maven/bin/mvn /usr/bin/mvn    
 ENV MAVEN_HOME /usr/share/maven
-CMD ["mvn"]
