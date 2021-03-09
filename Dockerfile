@@ -1,4 +1,4 @@
-FROM store/oracle/serverjre:8 
+FROM store/oracle/serverjre:1.8.0_241-b07
 
 # Maintainer
 MAINTAINER charithag <charitha.ws@gmail.com>
