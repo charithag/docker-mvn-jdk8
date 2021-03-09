@@ -1,11 +1,11 @@
-FROM store/oracle/serverjre:8 
+FROM store/oracle/serverjre:1.8.0_241-b07 
 
 # Maintainer
 MAINTAINER charithag <charitha.ws@gmail.com>
 #Forked from shinyay/docker-mvn-jdk8
 
 # Set environment variable for Maven version
-ENV MVN_VERSION 3.5.2
+ENV MVN_VERSION 3.6.3
 
 # Install packages
 # Install Maven
